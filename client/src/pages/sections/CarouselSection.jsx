@@ -23,7 +23,7 @@ const CarouselSection = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
   };
 
   return (
-      	<div id="testimonials" className="bg-blue-100 flex justify-center items-center min-h-screen">
+      	<div id="testimonials" className="bg-white flex justify-center items-center min-h-screen">
           	<div className="md:w-[70%] w-full p-6 pt-24">
                 <h2 className="text-4xl font-bold text-center text-gray-600 lg:block xs:hidden">This is what our clients can tell you about us...</h2>
                 <h2 className="text-4xl font-bold text-center text-white lg:hidden xs:block">This is how our clients rated us...</h2>

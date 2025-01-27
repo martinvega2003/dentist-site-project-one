@@ -78,7 +78,7 @@ const LeadMagnetSection = ({ setIsVisible }) => {
               className="absolute inset-0 bg-gradient-to-r from-accent to-primary opacity-0 transition-opacity duration-1000 group-hover:opacity-100"
               aria-hidden="true"
             ></span>
-            <span className="relative z-10 group-hover:text-white">Book a Call</span>
+            <span className="relative z-10 group-hover:text-white">Get This Offer</span>
           </button>
         </motion.div>
       </div>

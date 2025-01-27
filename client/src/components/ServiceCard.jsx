@@ -27,7 +27,7 @@ export const ServiceCard = ({
 
       {activeCard === index && (
         <motion.div
-          className="md:absolute left-0 top-full w-full bg-gray-50 p-4 shadow-lg rounded-lg z-96 xs:relative"
+          className="md:absolute left-0 top-full w-full bg-gray-50 p-4 shadow-lg rounded-lg z-20 xs:relative"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
