@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export const DataCard = ({icon: Icon, title, text}) => {
   return (
     <motion.div
-        className="w-[45%] lg:w-[30%] h-64 flex flex-col items-start md:items-center justify-start p-6 rounded-lg shadow-2xl bg-gradient-to-r from-blue-900 via-primary to-accent"
+        className="w-[90%] sm:w-[45%] lg:w-[30%] h-64 flex flex-col items-start md:items-center justify-start p-6 rounded-lg shadow-2xl bg-gradient-to-r from-blue-900 via-primary to-accent"
         style={{
           backgroundSize: '200% 100%', // Ensure the background size is large enough to move
         }}

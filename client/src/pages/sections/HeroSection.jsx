@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaTooth, FaTools, FaCalendarAlt, FaSmileBeam } from "react-icons/fa";
+import bgImage from "../../images/hero-bg.webp"
 
 const HeroSection = ({heading, subheading}) => {
   return (
     <section
       className="relative bg-cover bg-center h-screen flex items-center"
       style={{
-        backgroundImage: "url('/src/images/hero-bg.webp')",
+        backgroundImage: `url(${bgImage})`,
       }}
     >
       {/* Gradient Overlay */}

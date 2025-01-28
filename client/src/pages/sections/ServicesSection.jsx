@@ -16,15 +16,15 @@ const ServicesSection = ({ setIsVisible }) => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold text-center text-primary mb-4">
+        <h2 className="text-2xl sm:text-4xl font-bold text-center text-primary mb-4">
           Our Services
         </h2>
-        <p className="md:max-w-[70%] text-gray-700 font-body text-lg mb-6 leading-relaxed text-center">
+        <p className="md:max-w-[70%] text-gray-700 font-body text-sm sm:text-lg mb-6 leading-relaxed text-center">
           We provide dental care for the whole family, from children to elderly patients,
           building lifelong relationships through trust, transparency, and exceptional service.
           Our pricing is transparent, and we back our treatments with a full warranty to ensure your satisfaction.
         </p>
-        <p className="text-gray-700 font-body text-lg mb-8">
+        <p className="text-gray-700 font-body text-sm sm:text-lg mb-8">
           As a special offer, enjoy <strong>free teeth whitening for a year</strong> when you book an appointment today!
         </p>
         <motion.button

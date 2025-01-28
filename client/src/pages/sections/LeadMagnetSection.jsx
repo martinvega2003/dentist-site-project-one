@@ -43,13 +43,13 @@ const LeadMagnetSection = ({ setIsVisible }) => {
           </h3>
           <ul className="mb-6">
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="text-blue-500 mr-2" /> A brighter, more confident smile all year long.
+              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> A brighter, more confident smile all year long.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="text-blue-500 mr-2" /> Professional whitening sessions tailored to your needs.
+              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Professional whitening sessions tailored to your needs.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="text-blue-500 mr-2" /> Safe, effective, and gentle on your teeth.
+              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Safe, effective, and gentle on your teeth.
             </li>
           </ul>
 
@@ -59,20 +59,20 @@ const LeadMagnetSection = ({ setIsVisible }) => {
           </h3>
           <ul>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="text-blue-500 mr-2" /> Book your first consultation with us online or by phone.
+              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Book your first consultation with us online or by phone.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="text-blue-500 mr-2" /> Attend your appointment and meet our expert team.
+              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Attend your appointment and meet our expert team.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="text-blue-500 mr-2" /> Start your journey toward a radiant smile!
+              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Start your journey toward a radiant smile!
             </li>
           </ul>
 
           {/* Call-to-Action Button */}
           <button
             onClick={() => setIsVisible(true)}
-            className="w-64 bg-gradient-to-r from-primary to-blue-900 relative text-white text-lg font-bold px-8 py-3 mt-4 shadow-md rounded-md transition-transform duration-1000 overflow-hidden group"
+            className="w-fit sm:w-64 bg-gradient-to-r from-primary to-blue-900 relative text-white text-md sm:text-lg font-bold px-8 py-3 mt-4 shadow-md rounded-md transition-transform duration-1000 overflow-hidden group"
           >
             <span
               className="absolute inset-0 bg-gradient-to-r from-accent to-primary opacity-0 transition-opacity duration-1000 group-hover:opacity-100"

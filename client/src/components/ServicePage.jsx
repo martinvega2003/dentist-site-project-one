@@ -30,9 +30,9 @@ const ServicePage = ({
       <ExtraDataSection />
 
       {/* Description Section */}
-      <section className="bg-gradient-to-b from-blue-300 to-white px-20 py-12 flex justify-center items-center">
+      <section className="bg-gradient-to-b from-blue-300 to-white px-4 sm:px-20 py-12 flex justify-center items-center">
         <motion.div 
-          className="w-[90%] md:w-2/3 lg:w-fit mx-auto bg-white shadow-2xl rounded-3xl flex flex-col lg:flex-row justify-start items-center lg:items-start text-justify p-8"
+          className="w-[95%] sm:w-[90%] md:w-2/3 lg:w-fit mx-auto bg-white shadow-2xl rounded-3xl flex flex-col lg:flex-row justify-start items-center lg:items-start text-justify p-8"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -137,7 +137,7 @@ const ServicePage = ({
           Meet Our Professionals
         </motion.h3>
         <motion.div 
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-20"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 px-4 sm:px-20"
           initial={{ opacity: 0, x: 100, }}
           whileInView={{ opacity: 1, x: 0, }}
           viewport={{ once: true }}
@@ -160,7 +160,7 @@ const ServicePage = ({
       <section className="bg-white px-6 py-12 text-center">
         <motion.button
           onClick={() => setIsVisible(true)}
-          className="w-80 bg-transparent relative text-blue-900 border-4 border-blue-900 hover:border-accent text-lg font-bold px-8 py-6 shadow-md transition-transform overflow-hidden group"
+          className="w-fit sm:w-80 bg-transparent relative text-blue-900 border-4 border-blue-900 hover:border-accent text-lg font-bold px-16 sm:px-8 py-6 shadow-md transition-transform overflow-hidden group"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

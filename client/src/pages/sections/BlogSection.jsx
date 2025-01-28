@@ -142,8 +142,8 @@ const BlogSection = () => {
             </button>
           </form>
           {error === null ? (
-            <div className="flex items-center mt-4 text-green-600">
-              <FaCheckCircle className="mr-2" />
+            <div className="flex items-center mt-4 text-green-600 text-sm sm:text-md">
+              <FaCheckCircle className="mr-2 h-4 w-4" />
               <p>We respect your privacy and won’t spam your inbox.</p>
             </div>
           ) : error ? (

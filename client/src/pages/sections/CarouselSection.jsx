@@ -64,7 +64,7 @@ const CarouselSection = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
                         {reviewsData.map((_, i) => (
                             <div
                             key={i}
-                            className={`transition-all w-3 h-3 bg-black rounded-full ${
+                            className={`transition-all w-2 sm:w-3 h-2 sm:h-3 bg-black rounded-full ${
                                 index === i ? "p-2" : "bg-opacity-50"
                             }`}
                             />
