@@ -43,13 +43,13 @@ const LeadMagnetSection = ({ setIsVisible }) => {
           </h3>
           <ul className="mb-6">
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> A brighter, more confident smile all year long.
+              <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> A brighter, more confident smile all year long.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Professional whitening sessions tailored to your needs.
+              <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Professional whitening sessions tailored to your needs.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Safe, effective, and gentle on your teeth.
+              <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Safe, effective, and gentle on your teeth.
             </li>
           </ul>
 
@@ -59,13 +59,13 @@ const LeadMagnetSection = ({ setIsVisible }) => {
           </h3>
           <ul>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Book your first consultation with us online or by phone.
+              <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Book your first consultation with us online or by phone.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Attend your appointment and meet our expert team.
+              <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Attend your appointment and meet our expert team.
             </li>
             <li className="flex items-center text-gray-700 mb-2">
-              <FaCheckCircle className="h-3 sm:h-4 w-3 sm:w-4 text-blue-500 mr-2" /> Start your journey toward a radiant smile!
+              <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Start your journey toward a radiant smile!
             </li>
           </ul>
 

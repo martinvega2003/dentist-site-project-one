@@ -31,19 +31,25 @@ export const CalendarFields = ({ setDate }) => {
   const times = generateTimes();
 
   return (
-    <div className="flex flex-col md:flex-row items-center md:items-start justify-center p-6 bg-gray-100 rounded-md shadow-lg">
+    <div className="w-full flex flex-col md:flex-row items-start sm:items-center md:items-start justify-center p-6 bg-gray-100 rounded-md shadow-lg overflow-scroll">
       {/* Calendar Section */}
       <div className="mr-6">
         <h2 className="text-lg font-semibold mb-3">Select a Date</h2>
-        <Calendar
-          onChange={handleDateChange}
-          value={selectedDate}
-          className="rounded-md shadow-sm"
-        />
+        <div className="sm:w-auto w-full">
+          <Calendar
+            onChange={handleDateChange}
+            value={selectedDate}
+            className="rounded-md shadow-sm"
+            style={{
+              width: "100%", // Make the calendar take full width on small screens
+              maxWidth: "350px", // Limit the width for larger screens
+            }}
+          />
+        </div>
       </div>
 
       {/* Time Selector Section */}
-      <div className="flex-1">
+      <div className="flex-1 mt-4 md:mt-0">
         <h2 className="text-lg font-semibold mb-3">Select a Time</h2>
         <div className="h-[400px] overflow-y-scroll bg-white rounded-md shadow-sm p-4">
           {times.map((time, index) => (
