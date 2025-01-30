@@ -5,7 +5,7 @@ import patientThree from "../../images/patient-3.jpg"
 
 export const ImagesSection = () => {
   return (
-    <div className='relative pt-16 pb-40 px-12 flex flex-col md:flex-row justify-evenly items-center'>
+    <div className='relative pt-16 pb-40 sm:px-12 flex flex-col md:flex-row justify-evenly items-center'>
       <div className="absolute z-10 inset-0">
         <div className="h-1/2 lg:h-1/3 w-full bg-white"></div>
         <div className="h-1/2 lg:h-2/3 w-full bg-blue-200"></div>

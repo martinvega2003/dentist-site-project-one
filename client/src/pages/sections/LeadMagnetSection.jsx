@@ -19,29 +19,49 @@ const LeadMagnetSection = ({ setIsVisible }) => {
       {/* Content Layer */}
       <div className="relative px-6 flex md:justify-end justify-center">
         {/* Lead Magnet Card */}
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          viewport={{ once: true }}
+        <div
           className="bg-white p-8 rounded-br-none rounded-tl-none rounded-tr-3xl rounded-bl-3xl shadow-lg md:w-2/3 w-full"
         >
           {/* Title */}
-          <h2 className="text-2xl font-bold text-blue-700 mb-4">
+          <motion.h2 
+            className="text-2xl font-bold text-blue-700 mb-4"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             Enjoy Free Teeth Whitening for a Year!
-          </h2>
+          </motion.h2>
 
           {/* Description */}
-          <p className="text-gray-700 mb-6 md:block xs:hidden">
+          <motion.p 
+            className="text-gray-700 mb-6 md:block xs:hidden"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             Transform your smile and boost your confidence with our exclusive{" "}
             <strong>Free Teeth Whitening for a Year</strong> offer! As part of our commitment to your oral health, we're excited to provide this amazing opportunity.
-          </p>
+          </motion.p>
 
           {/* Main Benefits */}
-          <h3 className="text-lg font-semibold text-blue-700 mb-3">
+          <motion.h3 
+            className="text-lg font-semibold text-blue-700 mb-3"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             What You’ll Gain:
-          </h3>
-          <ul className="mb-6">
+          </motion.h3>
+          <motion.ul 
+            className="mb-6"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <li className="flex items-center text-gray-700 mb-2">
               <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> A brighter, more confident smile all year long.
             </li>
@@ -51,13 +71,24 @@ const LeadMagnetSection = ({ setIsVisible }) => {
             <li className="flex items-center text-gray-700 mb-2">
               <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Safe, effective, and gentle on your teeth.
             </li>
-          </ul>
+          </motion.ul>
 
           {/* Steps */}
-          <h3 className="text-lg font-semibold text-blue-700 mb-3">
+          <motion.h3 
+            className="text-lg font-semibold text-blue-700 mb-3"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             How to Claim This Offer:
-          </h3>
-          <ul>
+          </motion.h3>
+          <motion.ul
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <li className="flex items-center text-gray-700 mb-2">
               <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Book your first consultation with us online or by phone.
             </li>
@@ -67,10 +98,13 @@ const LeadMagnetSection = ({ setIsVisible }) => {
             <li className="flex items-center text-gray-700 mb-2">
               <FaCheckCircle className="min-h-3 sm:min-h-4 min-w-3 sm:min-w-4 text-blue-500 mr-2" /> Start your journey toward a radiant smile!
             </li>
-          </ul>
+          </motion.ul>
 
           {/* Call-to-Action Button */}
-          <button
+          <motion.button
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             onClick={() => setIsVisible(true)}
             className="w-fit sm:w-64 bg-gradient-to-r from-primary to-blue-900 relative text-white text-md sm:text-lg font-bold px-8 py-3 mt-4 shadow-md rounded-md transition-transform duration-1000 overflow-hidden group"
           >
@@ -79,8 +113,8 @@ const LeadMagnetSection = ({ setIsVisible }) => {
               aria-hidden="true"
             ></span>
             <span className="relative z-10 group-hover:text-white">Get This Offer</span>
-          </button>
-        </motion.div>
+          </motion.button>
+        </div>
       </div>
     </section>
   );

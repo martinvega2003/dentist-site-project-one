@@ -69,9 +69,9 @@ export const Form = () => {
 
   return (
     <div className="bg-form_bg flex justify-center items-center h-fit w-full my-4">
-        <div className='min-w-fit sm:min-w-[80%] md:max-w-1/2 mx-auto my-8 shadow-xl rounded-2xl p-4 bg-white'>
+        <div className='w-full sm:w-[80%] xl:w-1/2 mx-auto my-8 shadow-xl rounded-2xl p-4 bg-white'>
             {/* Stepper */}
-            <div className="container horizontal mt-5">
+            <div className="horizontal mt-5">
                 <Stepper 
                                 steps={steps}
                                 currentStep={currentStep}

@@ -31,7 +31,7 @@ export const CalendarFields = ({ setDate }) => {
   const times = generateTimes();
 
   return (
-    <div className="w-full flex flex-col md:flex-row items-start sm:items-center md:items-start justify-center p-6 bg-gray-100 rounded-md shadow-lg overflow-scroll">
+    <div className="w-full flex flex-col md:flex-row items-start sm:items-center md:items-start justify-center overflow-scroll">
       {/* Calendar Section */}
       <div className="mr-6">
         <h2 className="text-lg font-semibold mb-3">Select a Date</h2>
@@ -39,7 +39,6 @@ export const CalendarFields = ({ setDate }) => {
           <Calendar
             onChange={handleDateChange}
             value={selectedDate}
-            className="rounded-md shadow-sm"
             style={{
               width: "100%", // Make the calendar take full width on small screens
               maxWidth: "350px", // Limit the width for larger screens
