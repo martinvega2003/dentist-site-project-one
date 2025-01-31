@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { servicesData } from "../data/servicesData";
 
 const Navbar = () => {
   const [servicesMenuOpen, setServicesMenuOpen] = useState(false);
@@ -18,21 +19,6 @@ const Navbar = () => {
       [category]: !prev[category],
     }));
   };
-
-  const servicesData = [
-    {
-      title: "General Dentistry",
-      description: "Routine dental care to maintain healthy teeth and gums.",
-      services: [
-        { title: "Dental Checkups", path: "/general/checkups" },
-        { title: "Teeth Cleaning", path: "/general/cleaning" },
-        { title: "Fluoride Treatments", path: "/general/fluoride" },
-        { title: "Oral Cancer Screening", path: "/general/screening" },
-        { title: "Sealants", path: "/general/sealants" },
-      ],
-    },
-    // ... Add the other categories
-  ];
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
