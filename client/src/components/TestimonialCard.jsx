@@ -2,7 +2,7 @@ import React from 'react';
 
 export const TestimonialCard = ({ reviewer, review, stars, image }) => {
   return (
-    <div className="relative z-0 flex-shrink-0 w-[90%] sm:w-[60%] p-3 lg:p-6 bg-white rounded-tl-[50px] rounded-br-[50px] border-2">
+    <div className="relative z-0 flex-shrink-0 w-[90%] sm:w-[60%] p-3 lg:p-6 bg-white rounded-tl-[50px] rounded-br-[50px] border-2 pb-16 sm:pb-3">
       <div className="flex justify-center mb-4">
         <img src={image} className="w-8 sm:w-12 md:w-20 h-8 sm:h-12 md:h-20 bg-gray-800 rounded-full" alt={reviewer} />
       </div>

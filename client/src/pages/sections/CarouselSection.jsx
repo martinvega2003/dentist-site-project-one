@@ -52,11 +52,11 @@ const CarouselSection = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
                         ))}
                     </div>
                     <div className="absolute w-full inset-0 flex items-center justify-between">
-                        <button onClick={prev} className="p-3 rounded-full shadow bg-white/30 sm:bg-white/80 text-gray-800 hover:bg-primary hover:text-white">
-                        <SlArrowLeft size={40} />
+                        <button onClick={prev} className="p-2 sm:p-3 text-3xl sm:text-5xl rounded-full shadow bg-white/30 sm:bg-white/80 text-gray-800 hover:bg-primary hover:text-white">
+                        <SlArrowLeft />
                         </button>
-                        <button onClick={next} className="p-3 rounded-full shadow bg-white/30 sm:bg-white/80 text-gray-800 hover:bg-primary hover:text-white">
-                        <SlArrowRight size={40} />
+                        <button onClick={next} className="p-2 sm:p-3 text-3xl sm:text-5xl rounded-full shadow bg-white/30 sm:bg-white/80 text-gray-800 hover:bg-primary hover:text-white">
+                        <SlArrowRight />
                         </button>
                     </div>
                     <div className="absolute bottom-4 right-0 left-0">
